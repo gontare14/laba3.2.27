@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int number;
+
+    printf("Введите порядковый номер элемента 1-10: ");
+    scanf("%d", &number);
+
+    if (number == 1) printf("Водород\n");
+    else if (number == 2) printf("Гелий\n");
+    else if (number == 3) printf("Литий\n");
+    else if (number == 4) printf("Бериллий\n");
+    else if (number == 5) printf("Бор\n");
+    else if (number == 6) printf("Углерод\n");
+    else if (number == 7) printf("Азот\n");
+    else if (number == 8) printf("Кислород\n");
+    else if (number == 9) printf("Фтор\n");
+    else if (number == 10) printf("Неон\n");
+    else printf("Неверный номер\n");
+
+    return 0;
+}
